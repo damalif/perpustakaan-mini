@@ -9,7 +9,8 @@
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                 <a class="nav-link" href="/about">About</a>
                 <a class="nav-link" href="/contact">Contact</a>
-                <a class="nav-link" href="/book">Book</a>
+                <a class="nav-link" href="/buku">Buku</a>
+                <a class="nav-link" href="/logout">Logout</a>
             </div>
         </div>
     </div>

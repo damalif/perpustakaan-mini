@@ -8,7 +8,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
+                        <th scope="col">No</th>
                         <th scope="col">Sampul</th>
                         <th scope="col">Judul</th>
                         <th scope="col">Aksi</th>
@@ -23,7 +23,7 @@
 
                             <td><?= $b['judul']; ?></td>
                             <td>
-                                <a href="" class="btn btn-success">Detail</a>
+                                <a href="/buku/<?= $b['slug']; ?>" class="btn btn-success">Detail</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>

@@ -32,7 +32,8 @@ $routes->set404Override();
 $routes->get('/', 'Pages::index');
 $routes->get('/about', 'Pages::about');
 $routes->get('/contact', 'Pages::contact');
-$routes->get('/book', 'Book::index');
+$routes->get('/book', 'Buku::index');
+$routes->get('/buku/(:segment)', 'Buku::detail/$1');
 
 /*
  * --------------------------------------------------------------------
